@@ -1,0 +1,57 @@
+:root {
+    --blue-g: -webkit-linear-gradient(-45deg, #1ca7ec, #1f2f98);
+    --green-g: -webkit-linear-gradient(-45deg, #56ab2f, #a8e063);
+    --night-g: -webkit-linear-gradient(-45deg, #041b2d, #004e9a);
+    --cottoncandy-g: -webkit-linear-gradient(-45deg, #428cd4, #ff9cda);
+    --pink-g: -webkit-linear-gradient(-45deg, #dd5e89, #f7bb97);
+    --purple-g: -webkit-linear-gradient(-45deg, #614385, #516395);
+    --vaporwave-g: linear-gradient(-45deg, #54063e , #123060 );
+    --turquoise-g: linear-gradient(-45deg, #2af598, #009efd);
+    --red-g: linear-gradient(-45deg, #F00000, #DC281E)
+}
+.blue-g {
+    background-image:var(--blue-g);
+}
+.green-g {
+    background-image:var(--green-g);
+}
+.night-g {
+    background-image:var(--night-g);
+}
+.cottoncandy-g {
+    background-image:var(--cottoncandy-g);
+}
+.pink-g {
+    background-image:var(--pink-g);
+}
+.purple-g {
+    background-image:var(--purple-g);
+}
+.vaporwave-g {
+    background-image:var(--vaporwave-g);
+}
+.turquoise-g {
+    background-image:var(--turquoise-g);
+}
+.red-g {
+    background-image:var(--red-g);
+}
+
+.gradient-text {
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*
+<h1><b><span class="gradient-text blue-g">Blue</span></b></h1>
+<h1><b><span class="gradient-text green-g">Green</span></b></h1>
+<h1><b><span class="gradient-text night-g">Night</span></b></h1>
+<h1><b><span class="gradient-text cottoncandy-g">Cotton Candy</span></b></h1>
+<h1><b><span class="gradient-text pink-g">Pink</span></b></h1>
+<h1><b><span class="gradient-text purple-g">Purple</span></b></h1>
+<h1><b><span class="gradient-text vaporwave-g">Vaporwave</span></b></h1>
+<h1><b><span class="gradient-text turquoise-g">Turquoise</span></b></h1>
+<h1><b><span class="gradient-text red-g">Red</span></b></h1>
+*/
